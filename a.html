@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="author" content="智能社 - zhinengshe.com">
+<meta name="copyright" content="智能社 - zhinengshe.com">
+<title>智能社 - www.zhinengshe.com</title>
+<style>
+div { height:100px; background:#ccc; }
+.red { background:red; }
+</style>
+<script>
+	function toRed()
+	{
+		var oDiv=document.getElementById('div1');
+		
+		oDiv.className='red';
+	}
+	
+	function toGreen()
+	{
+		var oDiv=document.getElementById('div1');
+		
+		oDiv.style.background='green';
+	}
+</script>
+</head>
+
+<body>
+	<input type="button" value="变红" onclick="toRed();" />
+	<input type="button" value="变绿" onclick="toGreen();" />
+	
+	<div id="div1"></div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
